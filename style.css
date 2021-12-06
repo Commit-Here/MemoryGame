@@ -1,0 +1,19 @@
+.container{
+    border: solid 1px black;
+    width: 25vw;
+    height: 25vw;
+    margin: 25vh auto;
+    max-width: 800px;
+    max-height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .box{
+    border: solid 1px red;
+    width: 25%;
+    height: 25%;
+    box-sizing: border-box;
+}
+.container .box.hideColor{
+    background: none !important;
+}
